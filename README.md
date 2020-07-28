@@ -1,4 +1,4 @@
-# SAMPlE WEB PORTFOLIO USING REACT JS and SASS(WIP)
+# SAMPLE WEB PORTFOLIO USING REACT JS and SASS(WIP)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

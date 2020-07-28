@@ -1,16 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './Styles/main.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import NavBar from './Components/NavigationBr/NavBar'
+import NavigationBar from './Components/NavigationBr/NavigationBar'
 import Landing from './Components/LandingPg/Landing'
-
+import About from './Components/AboutPg/About'
+import Gallery from './Components/GalleryPg/Gallery'
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <NavigationBar />
       <Landing />
+      <About />
+      <Gallery />
     </div>
   );
 }

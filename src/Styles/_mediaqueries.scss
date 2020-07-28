@@ -1,0 +1,35 @@
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    //titles
+    .head-sz {
+        font-size: $xsmall-font;
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .head-sz {
+        font-size: $small-font;
+      }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .head-sz {
+        font-size: $medium-font;
+      }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .head-sz {
+        font-size: $large-font;
+      }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .head-sz {
+        font-size: $xlarge-font;
+      }
+}

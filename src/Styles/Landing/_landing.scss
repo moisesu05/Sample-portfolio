@@ -1,0 +1,30 @@
+@import './button';
+
+.ld-title{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $title-font;
+}
+
+.section{
+    max-width: 100%;
+    height: 100vh;
+    background: rgb(40, 136, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+        position: relative;
+        color: #fff;
+    }
+    .highlight{
+        color: #ffe593;
+    }
+    .sc-h2-bg{
+        position: absolute;
+        top: 7in;
+        left: 0;
+    }    
+}
+

@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700');
 
 // font-styles
 $title-font: 'Poppins', sans-serif;
 $subtitle-font: 'Roboto', sans-serif;
+$gallery-font: 'Barlow', sans-serif;
 
 // font-sizes
 $xsmall-font: 20px;
@@ -11,3 +13,10 @@ $small-font: 24px;
 $medium-font: 32px;
 $large-font: 40px;
 $xlarge-font: 44px;
+
+//gallery colors
+$white: #fff;
+$black: #2e2e2e;
+$gray: #787878;
+$highlight: #ea8478;
+$footer: #f7f7f7;
